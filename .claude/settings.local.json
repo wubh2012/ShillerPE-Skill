@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(shiller-pe-extractor)",
+      "mcp__chrome-devtools__new_page",
+      "mcp__chrome-devtools__wait_for",
+      "mcp__chrome-devtools__evaluate_script",
+      "mcp__chrome-devtools__close_page",
+      "Bash(dir \"c:\\\\Users\\\\GMKMIX\\\\Desktop\\\\test1\\\\.claude\\\\skills\\\\shiller-pe-extractor\" /b:*)",
+      "Bash(dir:*)"
+    ]
+  }
+}
