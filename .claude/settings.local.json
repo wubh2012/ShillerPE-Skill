@@ -7,7 +7,12 @@
       "mcp__chrome-devtools__evaluate_script",
       "mcp__chrome-devtools__close_page",
       "Bash(dir \"c:\\\\Users\\\\GMKMIX\\\\Desktop\\\\test1\\\\.claude\\\\skills\\\\shiller-pe-extractor\" /b:*)",
-      "Bash(dir:*)"
+      "Bash(dir:*)",
+      "mcp__context7__resolve-library-id",
+      "mcp__context7__query-docs",
+      "Bash(del \"C:\\\\Users\\\\GMKMIX\\\\Desktop\\\\test1\\\\.claude\\\\skills\\\\shiller-pe-extractor\\\\examples\\\\extract-shillerpe.sh\")",
+      "Bash(del:*)",
+      "mcp__chrome-devtools__take_screenshot"
     ]
   }
 }
