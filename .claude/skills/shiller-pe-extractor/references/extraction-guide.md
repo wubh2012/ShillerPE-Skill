@@ -13,7 +13,7 @@ mcp__chrome-devtools__wait_for(text="Shiller PE", timeout=10000)
 mcp__chrome-devtools__evaluate_script(function="() => { const chart = window.Highcharts?.charts?.[0]; const point = chart?.series?.[0]?.data?.slice(-1)[0]; return point ? { pe: point.y, crawl_date: new Date(point.x).toISOString().split('T')[0] } : null; }")
 
 # 4. Save as shillerpe.json
-# 5. (Optional) Push to API
+# 5. Push to API
 curl -X POST http://localhost:5000/api/shiller-pe -H "Content-Type: application/json" -d '{"pe": 32.5, "crawl_date": "2026-01-07"}'
 ```
 
