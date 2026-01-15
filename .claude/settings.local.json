@@ -13,7 +13,11 @@
       "Bash(del \"C:\\\\Users\\\\GMKMIX\\\\Desktop\\\\test1\\\\.claude\\\\skills\\\\shiller-pe-extractor\\\\examples\\\\extract-shillerpe.sh\")",
       "Bash(del:*)",
       "mcp__chrome-devtools__take_screenshot",
-      "Bash(claude:*)"
+      "Bash(claude:*)",
+      "mcp__chrome-devtools__list_pages",
+      "mcp__chrome-devtools__navigate_page",
+      "Bash(curl:*)",
+      "mcp__chrome-devtools__take_snapshot"
     ]
   }
 }
