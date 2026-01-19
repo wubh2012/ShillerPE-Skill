@@ -1,0 +1,18 @@
+{
+  "name": "crawl-pe-server",
+  "version": "1.0.0",
+  "description": "HTTP server for Claude Code skill remote execution",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["claude", "skill", "http", "server"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  }
+}
